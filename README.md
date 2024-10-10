@@ -6,3 +6,6 @@ but code can be learned like for its structure.
    
 2. How to execute the test
 $ npx playwright test ./tests/cart.spec.js --headed 
+
+3. How to run for report, se screenshot and trace
+$ npx playwright show-report 
