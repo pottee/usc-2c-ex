@@ -23,8 +23,10 @@ class CartPage{
 
             singleItemObj['itemName'] = itemName;
             singleItemObj['itemPrice'] = itemPrice;
+            console.log(" item obj found is ", singleItemObj);
             itemList.push(singleItemObj);
         }
+        console.log(" itemList ", itemList);
         await expect(itemList[0]).toEqual(productItem);
     }
 
