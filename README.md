@@ -19,6 +19,9 @@ and the assertion 'tba' as title of homepage in expect(this.page).toHaveTitle('t
 **How to run test:**
    
     $ npx playwright test ./tests/cart.spec.js --headed 
+
+or
+    
     $ npx playwright test --grep '@smoke || @regression'
 
 **How to re-open for report:**
