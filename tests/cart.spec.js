@@ -1,7 +1,7 @@
 const { test } = require('../pages/base.page');
 const testData = require('../test-data/productItemsData.json');
 
-test('As guest user, I can add a product at item details page to cart', async({ homePage, searchPage, itemDetailsPage, topMenu, cartPage }) => {
+test('As guest user, I can add a product at item details page to cart @smoke', async({ homePage, searchPage, itemDetailsPage, topMenu, cartPage }) => {
 
     await test.step('When I select a product item from search result', async () => {
 
@@ -12,7 +12,7 @@ test('As guest user, I can add a product at item details page to cart', async({ 
         await searchPage.productItemsLoaded();
         await searchPage.selectProduct(testData.productItem1.itemName); 
     });
-    await test.step('And I add the product to cart', async () => {
+    await test.step('And I add product to cart', async () => {
 
         await itemDetailsPage.addToCartButtonLoaded();
         await itemDetailsPage.clickAddToCart();
