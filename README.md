@@ -7,7 +7,7 @@ The code is rather example to a website, to not bother the web so url just not d
 but code can be learned like for its structure.
 
 **Setup:** 
-1. install playwright
+1. Install playwright
 
        $ npm init playwright@latest
    
