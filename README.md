@@ -13,7 +13,7 @@ but code can be learned like for its structure.
    
 
 
-4. Replace the url in page.goto('https://tba.com') with target url first ,
+2. Replace the url in page.goto('https://tba.com') with target url first ,
 and the assertion 'tba' as title of homepage in expect(this.page).toHaveTitle('tba'), in ./pages/homepage.page.js.
  
 **How to run test:**
