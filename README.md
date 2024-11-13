@@ -1,5 +1,5 @@
 
-A web project project automate test with playwright + JS
+A web project, automate test with playwright + JS
 playwright is really good support and all out of the box. 
 Its report, trace, auto-waiting, pallarel test (workers) and debugging are awesome.
 
